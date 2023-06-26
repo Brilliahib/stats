@@ -39,6 +39,12 @@ nav .logo-text {
   margin-left: 20px;
 }
 
+span {
+  color: #fbb13a;
+  font-size: 40px;
+  transform: translate(3px, 3px);
+}
+
 .logo-text p {
   color: #000;
   font-size: small;
@@ -134,6 +140,7 @@ nav .logo-text {
 
 .profile-text {
   text-align: center;
+  font-size: 20px;
 }
 
 .profile-tujuan-container {
@@ -242,6 +249,39 @@ nav .logo-text {
   margin-top: 40px;
 }
 
+.statpedia-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5rem;
+  align-items: center;
+  padding: 120px 12.8%;
+}
+
+.statpedia-text {
+  text-align: left;
+  font-size: 30px;
+}
+
+.statpedia-img img {
+  width: 900px;
+  height: 250px;
+  max-width: 100%;
+}
+
+.statpedia-container .btn {
+  padding: 10px 30px;
+  border-radius: 20px;
+  transition: 0.3s ease;
+  background-color: #d5453c;
+  color: #fff;
+}
+
+.statpedia-container .btn:hover {
+  transform: scale(1.05);
+  background-color: #fbb13a;
+}
+
 @media (max-width: 950px) {
   nav p {
     padding-top: 10px;
@@ -254,6 +294,9 @@ nav .logo-text {
   .home img {
     width: 200px;
     margin-top: 150px;
+  }
+  .heading .hr {
+    width: 20%;
   }
   .profile-container {
     grid-template-columns: 1fr;
@@ -293,5 +336,20 @@ nav .logo-text {
   }
   .bottom {
     margin-top: 40px;
+  }
+  .statpedia-container {
+    grid-template-columns: 1fr;
+    align-items: center;
+    width: 100%;
+  }
+  .statpedia-text p {
+    font-size: 20px;
+  }
+  .statpedia-text span {
+    font-size: 30px;
+  }
+  .statpedia-img img {
+    width: 400px;
+    height: auto;
   }
 }
