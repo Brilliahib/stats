@@ -352,4 +352,7 @@ nav .logo-text {
     width: 400px;
     height: auto;
   }
+  .bottom p {
+    font-size: 12px;
+  }
 }
