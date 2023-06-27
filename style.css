@@ -289,7 +289,7 @@ nav .logo-text {
   .home {
     padding: 20px;
     text-align: center;
-    height: 100vh;
+    height: 100%;
   }
   .home img {
     width: 200px;
