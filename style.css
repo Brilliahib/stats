@@ -21,6 +21,18 @@ body {
   background-color: #f6f7fb;
 }
 
+.darkMode {
+  background-color: #111827;
+  color: #fff;
+  .heading {
+    color: #fff;
+  }
+  nav {
+    background-color: #111827;
+    color: #fff;
+  }
+}
+
 nav {
   background-color: #fff;
   color: black;
@@ -289,7 +301,7 @@ nav .logo-text {
   .home {
     padding: 20px;
     text-align: center;
-    height: 100vh;
+    height: 100%;
   }
   .home img {
     width: 200px;
